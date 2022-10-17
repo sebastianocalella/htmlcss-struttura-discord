@@ -121,6 +121,17 @@ body>footer{
     font-size: 1.6rem;
 }
 
+.language{
+    margin-top: 1.5rem;
+    height: 1.2rem;
+}
+
+select{
+    color: white;
+    background-color: #23272a;
+    border: none;
+    font-weight: bold;
+}
 
 body>footer>hr{
     height: 0;
