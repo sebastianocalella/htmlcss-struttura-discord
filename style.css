@@ -19,6 +19,14 @@ button{
     border: none;
 }
 
+.discord-bk{
+    background-color: #8ea1e1;
+}
+
+.discord-color{
+    color: #8ea1e1;
+}
+
 header{
     background-image: url(./img/jumbo.png);
     background-size: 100% auto;
@@ -90,6 +98,29 @@ main footer h3{
 .background{
     background-image: url(./img/stars.svg);
     padding: 1rem 2rem 0;
+}
+
+body>footer{
+    padding: 5rem 15% 5rem;
+    background-color: #23272a;
+}
+
+.elements{
+    justify-content: space-between;
+}
+
+.column{
+    margin-right: 5rem;
+    width: 18%;
+}
+
+body>footer>hr{
+    height: 0;
+}
+
+.credits{
+    margin-top: 2rem;
+    justify-content: space-between;
 }
 
 
