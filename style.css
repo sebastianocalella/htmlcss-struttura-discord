@@ -4,3 +4,28 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    font-family: sans-serif;
+}
+
+.flexbox{
+    display: flex;
+}
+
+header{
+    background-image: url(./img/jumbo.png);
+    padding: .5rem 20%;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul>li{
+    display: inline;
+}
+
+nav{
+    justify-content: space-between;
+}
