@@ -112,20 +112,41 @@ body>footer{
 .column{
     margin-right: 3rem;
     width: 18%;
+    font-size: 1.2rem;
 }
 
 #first-section{
     width: 32%;
-    margin-right: 6rem;
+    margin-right: 5rem;
+    font-size: 1.6rem;
 }
 
 
 body>footer>hr{
     height: 0;
+    margin-top: 2rem;
 }
 
 body>footer ul{
     list-style-type: none;
+}
+
+body>footer li{
+    margin-top: .8rem;
+}
+
+body>footer a{
+    color: white;
+    font-weight: bold;
+}
+
+body>footer a:link{
+    text-decoration: none;
+}
+
+body>footer a:hover{
+    text-decoration: underline;
+    color: #8ea1e1;
 }
 
 .credits{
