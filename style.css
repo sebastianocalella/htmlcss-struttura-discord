@@ -13,6 +13,12 @@ body{
     display: flex;
 }
 
+button{
+    padding: .8rem 1rem;
+    border-radius: 2rem;
+    border: none;
+}
+
 header{
     background-image: url(./img/jumbo.png);
     background-size: 100% auto;
@@ -73,7 +79,18 @@ main{
 
 main footer{
     text-align: center;
-    margin: 8rem 28% 8rem;
+    margin: 8rem 20% 8rem;
 }
+
+main footer h3{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.background{
+    background-image: url(./img/stars.svg);
+    padding: 1rem 2rem 0;
+}
+
 
 
