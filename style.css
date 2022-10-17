@@ -70,3 +70,10 @@ main{
 .text>h2{
     font-size: 2.5rem;
 }
+
+main footer{
+    text-align: center;
+    margin: 8rem 28% 8rem;
+}
+
+
