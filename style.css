@@ -45,7 +45,7 @@ header{
     color: white;
     text-align: center;
     font-size: 1.2rem;
-    height: 40rem;
+    height: 29rem;
 }
 
 body>header a{
@@ -104,11 +104,17 @@ header>nav button{
 }
 
 main{
-    padding: 8rem 15%;
+    padding: 0 15%;
+    color: #23272a;
+}
+
+.reverse{
+    flex-direction: row-reverse;
 }
 
 .slide{
     justify-content: space-between;
+    margin-top: 7rem;
 }
 
 .slide>img{
