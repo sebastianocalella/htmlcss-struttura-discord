@@ -108,13 +108,20 @@ main{
     color: #23272a;
 }
 
+main>*{
+    padding-top: 7rem;
+}
+
 .reverse{
     flex-direction: row-reverse;
 }
 
 .slide{
     justify-content: space-between;
-    margin-top: 7rem;
+}
+
+.ordinary-slide{
+    text-align: center;
 }
 
 .slide>img{
@@ -135,7 +142,7 @@ main{
 
 main footer{
     text-align: center;
-    margin: 8rem 15% 8rem;
+    margin: 0 15% 8rem;
 }
 
 main footer h3{
