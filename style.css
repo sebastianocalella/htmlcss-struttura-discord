@@ -15,7 +15,13 @@ body{
 
 header{
     background-image: url(./img/jumbo.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
     padding: .5rem 20%;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    height: 35rem;
 }
 
 header ul{
@@ -28,4 +34,15 @@ header ul>li{
 
 nav{
     justify-content: space-between;
+}
+
+.header-content{
+    margin: 5rem 15% 0;
+}
+.header-content>*{
+    margin-top: 2rem;
+}
+
+.header-content nav{
+    justify-content: space-around;
 }
